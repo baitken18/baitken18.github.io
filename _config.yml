@@ -95,6 +95,8 @@ facebook:
   username               :
   app_id                 :
   publisher              :
+inspire                  : 2906512
+orchid                   : 0009-0008-1828-1513
 og_image                 : # Open Graph/Twitter default site image
 og_image_alt             : # Alt text for Open Graph/Twitter default site image
 # For specifying social profiles
@@ -115,15 +117,15 @@ analytics:
 # Site Author
 author:
   name             : "Branden Aitken"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : /assets/images/bio-photo.jpeg # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "MSc Student at the University of Victoria"
   location         : "Victoria, BC"
-  email            : #"brandenaitken [AT] uvic.ca"
+  email            : 
   # fediverse      : "@you@instance.social"  # used for fediverse:creator meta tag
   links:
-    - label: "brandenaitken [AT] uvic.ca"
+    - label: "Email"
       icon: "fas fa-fw fa-square-envelope"
-      #url: "mailto:your.name@email.com"
+      url: "mailto:brandenaitken [AT] uvic.ca"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
@@ -133,9 +135,15 @@ author:
     - label: "Facebook"
       icon: "fab fa-fw fa-square-facebook"
       # url: "https://facebook.com/"
+    - label: "INSPIRE"
+      icon: "ai ai-inspire ai-fw"
+      url: https://inspirehep.net/authors/2906512
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
+      url: "https://github.com/baitken18"
+    - label: "Orcid"
+      icon: "ai ai-orcid ai-fw"
+      url: https://orcid.org/0009-0008-1828-1513
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"

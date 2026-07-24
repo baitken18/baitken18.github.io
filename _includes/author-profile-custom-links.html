@@ -1,7 +1,7 @@
-<!--
-  <li>
-    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer me">
-      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
-    </a>
-  </li>
--->
+{% if author.inspire %}
+  <a href="https://inspirehep.net/authors/{{ author.inspire }}"><i class="ai ai-inspire ai-fw"></i></a>
+{% endif %}
+
+{% if author.orcid %}
+  <a href="https://orcid.org/{{ author.orcid_id }}"><i class="ai ai-orcid ai-fw"></i></a>
+{% endif %}
